@@ -46,8 +46,8 @@ xmlns:custom="custom.d4bfff9a">
           <expand config="expand-config-2" slot="bottom-end" id="expand-8259a00a">
             <bookmarks config="bookmarks-config-1" id="bookmarks-4f31fd41"/>
           </expand>
-         
 
+          <custom:geometry-alert-project4 config="project-4-geometry-alert" slot="bottom-start" />
           <web:scale-input slot="bottom-start" config="scale-input-config-1" id="scale-input-68d7eb44"/>
           <scalebar slot="bottom-start" config="scalebar-config-1" id="scalebar-9192629c"/>
           <map-coordinates slot="context-menu" config="map-coordinates-config-1" id="map-coordinates-3c885db1"/>

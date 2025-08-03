@@ -32,10 +32,10 @@
             "webMap": "https://www.arcgis.com/home/item.html?id=29f5b94f572d4dcd8a45c1fc095fd528",
             "webScene": "https://www.arcgis.com/home/item.html?id=1d3c1d44f6f941ae9488cc8b2d204cf6",
             "onClick": [
-                "tasks.identify",
-                "results.display-details",
-                "charts.display",
-                "kpi.display"
+                {
+                    "name": "geometry-alert.create",
+                    "arguments":"item://geometry-alert-model/project-4-geometry-alert"
+                }
             ],
             "onHover": [
                 "tasks.identify",
@@ -2733,6 +2733,11 @@
             "id":"project-2-layer-list-config-1",
             "title":"LayersList",
             "$type":"Project-2-model-part"
+        },
+        {
+            "id":"project-4-geometry-alert",
+            "title": "Project 4 Geometry Alert",
+            "$type":"geometry-alert-model"
         }
     ]
 }
