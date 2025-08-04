@@ -6,6 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import type GeometryAlertModel from "./GeometryAlertModel";
 
 const GeometryAlert=(props: LayoutElementProperties<GeometryAlertModel>) => {
+    const { model } = props;
     const AlertFunction = () => {
     // alert("Clicked On map for Geometry Alert");
     toast("Clicked On map for Geometry Alert", {
@@ -18,7 +19,7 @@ const GeometryAlert=(props: LayoutElementProperties<GeometryAlertModel>) => {
     });
 };
     
-
+  
     return (
         <LayoutElement {...props}>
             <div style={{ backgroundColor: "lightblue", padding: "20px", borderRadius: "8px", height:"50px",width:"200px", display:"flex", alignItems:"center", justifyContent:"center" }}  onClick={AlertFunction}>

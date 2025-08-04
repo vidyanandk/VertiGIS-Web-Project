@@ -32,10 +32,9 @@
             "webMap": "https://www.arcgis.com/home/item.html?id=29f5b94f572d4dcd8a45c1fc095fd528",
             "webScene": "https://www.arcgis.com/home/item.html?id=1d3c1d44f6f941ae9488cc8b2d204cf6",
             "onClick": [
-                {
-                    "name": "geometry-alert.create",
-                    "arguments":"item://geometry-alert-model/project-4-geometry-alert"
-                }
+
+               "geometry-alert.create"
+        
             ],
             "onHover": [
                 "tasks.identify",
