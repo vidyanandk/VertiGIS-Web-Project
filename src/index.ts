@@ -4,6 +4,9 @@ import PointsOfInterest, { PointsOfInterestModel } from "./components/PointsOfIn
 import Project1Service from "./components/Pro1";
 import LayerListProject from "./components/Project2";
 import GeometryAlertPro4 from "./components/Project4";
+import BasemapOpacitySlidebar from "./components/Project6";  
+import InterComponentCommunication from "./components/Project7";
+
 
 const LAYOUT_NAMESPACE = "custom.d4bfff9a";
 
@@ -31,4 +34,6 @@ export default function (registry: LibraryRegistry): void {
    
     LayerListProject(registry, LAYOUT_NAMESPACE);
     GeometryAlertPro4(registry, LAYOUT_NAMESPACE);
+    BasemapOpacitySlidebar(registry, LAYOUT_NAMESPACE);
+    InterComponentCommunication(registry, LAYOUT_NAMESPACE);
 }

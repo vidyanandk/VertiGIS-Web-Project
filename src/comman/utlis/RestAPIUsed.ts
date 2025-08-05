@@ -25,7 +25,6 @@ import FeatureLayer from "@arcgis/core/layers/FeatureLayer";
 export  async function getFeatureServiceLayers(): Promise<any[]> {
     try {
         const response = await fetch(
-            // "https://10.10.34.18:8082/rest/services/CONNECTMASTER_LIVE/FeatureServer?f=json"
             "https://ckmvlf3.amantyatech.com:8091/rest/services/CONNECTMASTER_ProjectVersion-61/FeatureServer?f=json"
         );
         const data = await response.json();
@@ -57,7 +56,6 @@ const mapEsriGeometryType = (type: string) => {
 
 // Updated function: Don't convert to FeatureLayer by default, only when necessary
 export const convertToFeatureLayer = (layer: { id: number; name?: string; geometryType?: string }) => {
-    // const url = `https://10.10.34.18:8082/rest/services/CONNECTMASTER_LIVE/FeatureServer/${layer.id}`;
     const url=`https://ckmvlf3.amantyatech.com:8091/rest/services/CONNECTMASTER_ProjectVersion-61/FeatureServer/${layer.id}`;
     console.log("Layer URL:", url);
      
@@ -77,7 +75,6 @@ export const convertToFeatureLayer = (layer: { id: number; name?: string; geomet
 export const getLayerMetadata = async (layerId: number) => {
     try {
         const response = await fetch(
-            // `http://10.10.34.18:8082/rest/services/CONNECTMASTER_LIVE/FeatureServer/${layerId}?f=json`
             `https://ckmvlf3.amantyatech.com:8091/rest/services/CONNECTMASTER_ProjectVersion-61/FeatureServer/${layerId}/query?f=json`
         );
         const data = await response.json();

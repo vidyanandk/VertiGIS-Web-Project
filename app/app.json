@@ -2737,6 +2737,17 @@
             "id":"project-4-geometry-alert",
             "title": "Project 4 Geometry Alert",
             "$type":"geometry-alert-model"
+        },
+        {
+            "id":"project-6-basemap-opacity",
+            "title": "Project 6 Basemap Opacity",
+            "$type":"add-opacity"
+        },
+        {
+            "id":"project-7-config-1",
+            "title": "Project 7 Config",
+            "$type":"Project-7-model"
         }
+       
     ]
 }
