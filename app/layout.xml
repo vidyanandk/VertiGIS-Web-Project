@@ -51,6 +51,9 @@ xmlns:custom="custom.d4bfff9a">
 
           <custom:project6-basemap-opacity-slidebar config="project-6-basemap-opacity" slot="bottom-start" id="basemap-opacity-slidebar-1"/>
           <custom:project-7 config="project-7-config-1" slot="bottom-start"/>
+          <custom:project-8-project config="project-8-config-1" slot="top-end"/>
+
+
           <web:scale-input slot="bottom-start" config="scale-input-config-1" id="scale-input-68d7eb44"/>
           <scalebar slot="bottom-start" config="scalebar-config-1" id="scalebar-9192629c"/>
           <map-coordinates slot="context-menu" config="map-coordinates-config-1" id="map-coordinates-3c885db1"/>

@@ -9,7 +9,7 @@ export default function Project7Opening({ model }: { model: any }) {
 
     const handleOpenNotification = () => {
         console.log("Button clicked!");
-        toast.success("Welcome to Project 7! 🚀", {
+        toast.success("Welcome to new Page Project 7! 🚀", {
             onClose: closeModal
         });
     };

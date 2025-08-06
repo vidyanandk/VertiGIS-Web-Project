@@ -2747,6 +2747,11 @@
             "id":"project-7-config-1",
             "title": "Project 7 Config",
             "$type":"Project-7-model"
+        },
+        {
+            "id":"project-8-config-1",
+            "title": "Project 8 Config",
+            "$type":"project-8-model"
         }
        
     ]

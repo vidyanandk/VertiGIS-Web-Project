@@ -6,6 +6,8 @@ import LayerListProject from "./components/Project2";
 import GeometryAlertPro4 from "./components/Project4";
 import BasemapOpacitySlidebar from "./components/Project6";  
 import InterComponentCommunication from "./components/Project7";
+import Project8 from "./components/Project8";
+import Project7Service from "./services/Services8";
 
 
 const LAYOUT_NAMESPACE = "custom.d4bfff9a";
@@ -36,4 +38,6 @@ export default function (registry: LibraryRegistry): void {
     GeometryAlertPro4(registry, LAYOUT_NAMESPACE);
     BasemapOpacitySlidebar(registry, LAYOUT_NAMESPACE);
     InterComponentCommunication(registry, LAYOUT_NAMESPACE);
+    Project8(registry, LAYOUT_NAMESPACE);
+    Project7Service(registry);
 }
