@@ -53,6 +53,9 @@ xmlns:custom="custom.d4bfff9a">
           <custom:project-7 config="project-7-config-1" slot="bottom-start"/>
           <custom:project-8-project config="project-8-config-1" slot="top-end"/>
 
+          <!-- <custom:project-9 config="project-9-config-1" slot="bottom-start"/> -->
+          <custom:project-9-test config="project-9-test-config-1" slot="bottom-start"/>
+          <custom:Project-10 config="project-10-config-1" slot="bottom-start"/>
 
           <web:scale-input slot="bottom-start" config="scale-input-config-1" id="scale-input-68d7eb44"/>
           <scalebar slot="bottom-start" config="scalebar-config-1" id="scalebar-9192629c"/>

@@ -33,8 +33,9 @@
             "webScene": "https://www.arcgis.com/home/item.html?id=1d3c1d44f6f941ae9488cc8b2d204cf6",
             "onClick": [
 
-               "geometry-alert.create"
-        
+               "geometry-alert.create",
+               "click-point-finder.create"
+
             ],
             "onHover": [
                 "tasks.identify",
@@ -1018,7 +1019,7 @@
             "$type":"menu-item",
             "id": "project1ID",
             "action":"project1.confirm-me",
-            "title": "Project 1",
+            "title": "Project 1Vk",
             "description": "Project 1 Description",
             "iconId":"add-square"
         },
@@ -2752,6 +2753,24 @@
             "id":"project-8-config-1",
             "title": "Project 8 Config",
             "$type":"project-8-model"
+        }
+        ,
+        {
+            "id":"project-9-config-1",
+            "title": "Project 9 Config",
+            "$type":"Project-9-model"
+        }
+       
+        ,
+        {
+            "id":"project-9-test-config-1",
+            "title": "Project 9 Test Config",
+            "$type":"Project-9-model-model"
+        },
+        {
+            "id":"project-10-config-1",
+            "title": "Project 10 Config",
+            "$type":"Project-10-click-point-model"
         }
        
     ]

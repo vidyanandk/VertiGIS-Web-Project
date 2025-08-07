@@ -9,7 +9,7 @@ import Project8SecondPage from "./Project8SecondPage";
 export default function Project8(props: LayoutElementProperties<Project8Model>) {
     const { model, ...other } = props;
 
-    // Reactively re-render when modal state changes
+    
     useWatchAndRerender(model, ["open"]);
 
     const handleClick = (): void => {
