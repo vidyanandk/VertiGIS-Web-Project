@@ -25,7 +25,9 @@ import FeatureLayer from "@arcgis/core/layers/FeatureLayer";
 export  async function getFeatureServiceLayers(): Promise<any[]> {
     try {
         const response = await fetch(
-            "https://ckmvlf3.amantyatech.com:8091/rest/services/CONNECTMASTER_ProjectVersion-61/FeatureServer?f=json"
+
+            // "https://ckmvlf3.amantyatech.com:8091/rest/services/CONNECTMASTER_ProjectVersion-61/FeatureServer?f=json"
+            "https://10.10.33.16:8082/rest/services/CONNECTMASTER_LIVE/FeatureServer?f=json"
         );
         const data = await response.json();
         return data.layers || [];
@@ -56,10 +58,12 @@ const mapEsriGeometryType = (type: string) => {
 
 // Updated function: Don't convert to FeatureLayer by default, only when necessary
 export const convertToFeatureLayer = (layer: { id: number; name?: string; geometryType?: string }) => {
-    const url=`https://ckmvlf3.amantyatech.com:8091/rest/services/CONNECTMASTER_ProjectVersion-61/FeatureServer/${layer.id}`;
+    // const url=`https://ckmvlf3.amantyatech.com:8091/rest/services/CONNECTMASTER_ProjectVersion-61/FeatureServer/${layer.id}`;
+    const url=`https://10.10.33.16:8082/rest/services/CONNECTMASTER_LIVE/FeatureServer/${layer.id}`;
+
     console.log("Layer URL:", url);
      
-    console.log("ak",url);
+   
     return new FeatureLayer({
         url,
         id: `layer-${layer.id}`,
@@ -75,7 +79,8 @@ export const convertToFeatureLayer = (layer: { id: number; name?: string; geomet
 export const getLayerMetadata = async (layerId: number) => {
     try {
         const response = await fetch(
-            `https://ckmvlf3.amantyatech.com:8091/rest/services/CONNECTMASTER_ProjectVersion-61/FeatureServer/${layerId}/query?f=json`
+            // `https://ckmvlf3.amantyatech.com:8091/rest/services/CONNECTMASTER_ProjectVersion-61/FeatureServer/${layerId}/query?f=json`
+            `https://10.10.33.16:8082/rest/services/CONNECTMASTER_LIVE/FeatureServer/${layerId}/query?f=json`
         );
         const data = await response.json();
         return data;

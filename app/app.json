@@ -11,9 +11,7 @@
                 "item://layer-extension/victoria-water-lines",
                 "item://layer-extension/victoria-fire-hydrants"
             ],
-            "tableExtensions": [
-                "item://table-extension/fire-hydrant-surveys"
-            ],
+            "tableExtensions": ["item://table-extension/fire-hydrant-surveys"],
             "basemapOptions": [
                 "item://basemap-extension/0746ab1c-7665-4b71-a4e7-dfe9e042bf3e",
                 "item://basemap-extension/ccd380bd-16c0-47e0-b885-6bdddeff33ef",
@@ -31,16 +29,8 @@
             "groundExtension": "item://ground-extension/15cd19e1-aab6-4d0e-a3aa-4a579581c61b",
             "webMap": "https://www.arcgis.com/home/item.html?id=29f5b94f572d4dcd8a45c1fc095fd528",
             "webScene": "https://www.arcgis.com/home/item.html?id=1d3c1d44f6f941ae9488cc8b2d204cf6",
-            "onClick": [
-
-               "geometry-alert.create",
-               "click-point-finder.create"
-
-            ],
-            "onHover": [
-                "tasks.identify",
-                "results.display-summary"
-            ],
+            "onClick": ["geometry-alert.create", "click-point-finder.create"],
+            "onHover": ["tasks.identify", "results.display-summary"],
             "onHoverEnd": [
                 {
                     "name": "ui.deactivate",
@@ -106,9 +96,7 @@
         },
         {
             "id": "water-lines-context",
-            "items": [
-                "item://menu-item/measure-water-line"
-            ],
+            "items": ["item://menu-item/measure-water-line"],
             "$type": "menu"
         },
         {
@@ -116,10 +104,7 @@
             "iconId": "measure-polyline",
             "title": "language-designer-gen-measure-pipe-title",
             "description": "language-designer-gen-measure-pipe-description",
-            "action": [
-                "measurement.create-graphics",
-                "map.add-markup"
-            ],
+            "action": ["measurement.create-graphics", "map.add-markup"],
             "$type": "menu-item"
         },
         {
@@ -142,9 +127,7 @@
         },
         {
             "id": "fire-hydrants-context",
-            "items": [
-                "item://menu-item/move-fire-hydrant"
-            ],
+            "items": ["item://menu-item/move-fire-hydrant"],
             "$type": "menu"
         },
         {
@@ -212,9 +195,7 @@
                     }
                 ]
             },
-            "baseLayerExtensions": [
-                "item://layer-extension/538250be-94e4-4414-b217-f3b3c320e800"
-            ],
+            "baseLayerExtensions": ["item://layer-extension/538250be-94e4-4414-b217-f3b3c320e800"],
             "$type": "basemap-extension"
         },
         {
@@ -254,9 +235,7 @@
                     }
                 ]
             },
-            "baseLayerExtensions": [
-                "item://layer-extension/e4fdd5f9-5be3-4ddd-afc3-7bd6a5532534"
-            ],
+            "baseLayerExtensions": ["item://layer-extension/e4fdd5f9-5be3-4ddd-afc3-7bd6a5532534"],
             "referenceLayerExtensions": [
                 "item://layer-extension/af85e194-94ee-473e-af58-52b6637cb210"
             ],
@@ -307,9 +286,7 @@
                 ],
                 "title": "language-designer-gen-streets-basemap-title"
             },
-            "baseLayerExtensions": [
-                "item://layer-extension/3799ba38-d5d2-429b-a3c9-32f339ced57e"
-            ],
+            "baseLayerExtensions": ["item://layer-extension/3799ba38-d5d2-429b-a3c9-32f339ced57e"],
             "$type": "basemap-extension"
         },
         {
@@ -401,9 +378,7 @@
                     }
                 ]
             },
-            "baseLayerExtensions": [
-                "item://layer-extension/ab37c32b-f793-4617-98a0-225834f68bb5"
-            ],
+            "baseLayerExtensions": ["item://layer-extension/ab37c32b-f793-4617-98a0-225834f68bb5"],
             "$type": "basemap-extension"
         },
         {
@@ -437,9 +412,7 @@
                     }
                 ]
             },
-            "baseLayerExtensions": [
-                "item://layer-extension/0ac6be03-e089-4309-98b7-a06534815ab8"
-            ],
+            "baseLayerExtensions": ["item://layer-extension/0ac6be03-e089-4309-98b7-a06534815ab8"],
             "$type": "basemap-extension"
         },
         {
@@ -566,9 +539,7 @@
                     }
                 ]
             },
-            "baseLayerExtensions": [
-                "item://layer-extension/640daff9-aa7a-4047-8f0a-dd484d1f6b32"
-            ],
+            "baseLayerExtensions": ["item://layer-extension/640daff9-aa7a-4047-8f0a-dd484d1f6b32"],
             "referenceLayerExtensions": [
                 "item://layer-extension/a7cbce54-6c33-4064-b160-b5ebdc14a6af"
             ],
@@ -629,9 +600,7 @@
                     }
                 ]
             },
-            "baseLayerExtensions": [
-                "item://layer-extension/4bd0e8be-5543-41f1-ab05-b408a0d99485"
-            ],
+            "baseLayerExtensions": ["item://layer-extension/4bd0e8be-5543-41f1-ab05-b408a0d99485"],
             "referenceLayerExtensions": [
                 "item://layer-extension/8b8ce4cc-9fb0-43f3-86ce-2c87ef15f375"
             ],
@@ -693,9 +662,7 @@
                     }
                 ]
             },
-            "baseLayerExtensions": [
-                "item://layer-extension/02b8f579-c934-42e4-9f18-065b677fd017"
-            ],
+            "baseLayerExtensions": ["item://layer-extension/02b8f579-c934-42e4-9f18-065b677fd017"],
             "referenceLayerExtensions": [
                 "item://layer-extension/d74ad0b5-5f94-4565-8524-48724f5124f5"
             ],
@@ -745,9 +712,7 @@
                     }
                 ]
             },
-            "baseLayerExtensions": [
-                "item://layer-extension/0e88aef7-ef76-43a3-bf97-a79339a23c0c"
-            ],
+            "baseLayerExtensions": ["item://layer-extension/0e88aef7-ef76-43a3-bf97-a79339a23c0c"],
             "$type": "basemap-extension"
         },
         {
@@ -835,10 +800,7 @@
             "iconId": "csv-export",
             "title": "language-designer-gen-export-features-to-csv-menuitemtitle",
             "description": "language-designer-gen-export-features-to-csv-menuitemdescription",
-            "action": [
-                "results.convert-to-csv",
-                "system.download-file"
-            ],
+            "action": ["results.convert-to-csv", "system.download-file"],
             "$type": "menu-item"
         },
         {
@@ -846,10 +808,7 @@
             "iconId": "xlsx-export",
             "title": "language-designer-gen-export-features-to-xlsx-menuitemtitle",
             "description": "language-designer-gen-export-features-to-xlsx-menuitemdescription",
-            "action": [
-                "results.convert-to-xlsx",
-                "system.download-file"
-            ],
+            "action": ["results.convert-to-xlsx", "system.download-file"],
             "$type": "menu-item"
         },
         {
@@ -924,12 +883,7 @@
             "iconId": null,
             "title": "language-designer-gen-map-identify-menuitemtitle",
             "description": "language-designer-gen-map-identify-menuitemdescription",
-            "action": [
-                "tasks.identify",
-                "results.display",
-                "charts.display",
-                "kpi.display"
-            ],
+            "action": ["tasks.identify", "results.display", "charts.display", "kpi.display"],
             "$type": "menu-item"
         },
         {
@@ -1016,22 +970,19 @@
             "$type": "menu"
         },
         {
-            "$type":"menu-item",
+            "$type": "menu-item",
             "id": "project1ID",
-            "action":"project1.confirm-me",
+            "action": "project1.confirm-me",
             "title": "Project 1Vk",
             "description": "Project 1 Description",
-            "iconId":"add-square"
+            "iconId": "add-square"
         },
         {
             "id": "93e0b44f-eeda-495f-be17-274475054872",
             "iconId": "layers-add",
             "title": "language-designer-gen-add-layer-config-title",
             "description": "language-designer-gen-add-layer-config-menuitemdescription",
-            "action": [
-                "portal.choose-layers",
-                "map.add-layers"
-            ],
+            "action": ["portal.choose-layers", "map.add-layers"],
             "$type": "menu-item"
         },
         {
@@ -1135,10 +1086,7 @@
             "title": "language-designer-gen-configure-layer-label-menuitemtitle",
             "description": "language-designer-gen-configure-layer-label-menuitemdescription",
             "hideOnDisable": true,
-            "action": [
-                "layers.edit-label-settings",
-                "layers.set-label-classes"
-            ],
+            "action": ["layers.edit-label-settings", "layers.set-label-classes"],
             "$type": "menu-item"
         },
         {
@@ -1184,9 +1132,7 @@
         },
         {
             "id": "printing",
-            "templates": [
-                "item://print-template/default"
-            ],
+            "templates": ["item://print-template/default"],
             "$type": "print-form"
         },
         {
@@ -1247,21 +1193,11 @@
                         },
                         "symbol": {
                             "type": "esriSFS",
-                            "color": [
-                                0,
-                                0,
-                                0,
-                                84
-                            ],
+                            "color": [0, 0, 0, 84],
                             "style": "esriSFSBackwardDiagonal",
                             "outline": {
                                 "type": "esriSLS",
-                                "color": [
-                                    0,
-                                    0,
-                                    0,
-                                    255
-                                ],
+                                "color": [0, 0, 0, 255],
                                 "width": 1.5,
                                 "style": "esriSLSSolid"
                             }
@@ -1293,21 +1229,11 @@
                         },
                         "symbol": {
                             "type": "esriSFS",
-                            "color": [
-                                0,
-                                0,
-                                0,
-                                84
-                            ],
+                            "color": [0, 0, 0, 84],
                             "style": "esriSFSBackwardDiagonal",
                             "outline": {
                                 "type": "esriSLS",
-                                "color": [
-                                    0,
-                                    0,
-                                    0,
-                                    255
-                                ],
+                                "color": [0, 0, 0, 255],
                                 "width": 1.5,
                                 "style": "esriSLSSolid"
                             }
@@ -1339,12 +1265,7 @@
                         },
                         "symbol": {
                             "type": "esriSLS",
-                            "color": [
-                                0,
-                                0,
-                                0,
-                                255
-                            ],
+                            "color": [0, 0, 0, 255],
                             "width": 1.5,
                             "style": "esriSLSSolid"
                         }
@@ -1375,14 +1296,10 @@
             "iconId": "snapping-off",
             "title": "language-designer-gen-snapping-activate-title",
             "description": "language-designer-gen-snapping-activate-description",
-            "action": [
-                "sketching.activate-snapping"
-            ],
+            "action": ["sketching.activate-snapping"],
             "alternate": {
                 "title": "language-designer-gen-snapping-deactivate-title",
-                "action": [
-                    "sketching.deactivate-snapping"
-                ],
+                "action": ["sketching.deactivate-snapping"],
                 "iconId": "snapping",
                 "description": "language-designer-gen-snapping-deactivate-description"
             },
@@ -1397,10 +1314,7 @@
                 {
                     "name": "sketching.capture-geometry",
                     "arguments": {
-                        "geometryType": [
-                            "point",
-                            "extent"
-                        ]
+                        "geometryType": ["point", "extent"]
                     }
                 },
                 {
@@ -1428,9 +1342,7 @@
         {
             "id": "results-config-1",
             "featureActions": "item://menu/results-context",
-            "onFeatureClick": [
-                "results.display-details"
-            ],
+            "onFeatureClick": ["results.display-details"],
             "$type": "results"
         },
         {
@@ -1493,10 +1405,7 @@
             "iconId": "arcgis-shortcut",
             "title": "language-designer-gen-get-sharing-title",
             "description": "language-designer-gen-get-sharing-description",
-            "action": [
-                "system.get-sharing-link",
-                "system.display-sharing-link"
-            ],
+            "action": ["system.get-sharing-link", "system.display-sharing-link"],
             "$type": "menu-item"
         },
         {
@@ -1556,10 +1465,7 @@
             "iconId": "save",
             "title": "language-designer-gen-save-project-menuitemtitle",
             "description": "language-designer-gen-save-project-menuitemdescription",
-            "action": [
-                "app.create-project",
-                "system.download-file"
-            ],
+            "action": ["app.create-project", "system.download-file"],
             "$type": "menu-item"
         },
         {
@@ -1751,10 +1657,7 @@
                 {
                     "name": "sketching.capture-geometry",
                     "arguments": {
-                        "geometryType": [
-                            "point",
-                            "extent"
-                        ]
+                        "geometryType": ["point", "extent"]
                     }
                 },
                 "map.get-markup",
@@ -1774,14 +1677,10 @@
             "iconId": "snapping-off",
             "title": "language-designer-gen-snapping-activate-title",
             "description": "language-designer-gen-snapping-activate-description",
-            "action": [
-                "sketching.activate-snapping"
-            ],
+            "action": ["sketching.activate-snapping"],
             "alternate": {
                 "title": "language-designer-gen-snapping-deactivate-title",
-                "action": [
-                    "sketching.deactivate-snapping"
-                ],
+                "action": ["sketching.deactivate-snapping"],
                 "iconId": "snapping",
                 "description": "language-designer-gen-snapping-deactivate-description"
             },
@@ -1812,10 +1711,7 @@
                 {
                     "name": "measurement.capture-geometry",
                     "arguments": {
-                        "geometryType": [
-                            "polyline",
-                            "polygon"
-                        ],
+                        "geometryType": ["polyline", "polygon"],
                         "pluginSettings": {
                             "snapping": true
                         }
@@ -1835,10 +1731,7 @@
                 {
                     "name": "measurement.capture-geometry",
                     "arguments": {
-                        "geometryType": [
-                            "polygon",
-                            "polyline"
-                        ],
+                        "geometryType": ["polygon", "polyline"],
                         "pluginSettings": {
                             "snapping": true
                         }
@@ -1921,10 +1814,7 @@
                 {
                     "name": "sketching.capture-geometry",
                     "arguments": {
-                        "geometryType": [
-                            "point",
-                            "extent"
-                        ]
+                        "geometryType": ["point", "extent"]
                     }
                 },
                 "tasks.identify",
@@ -1943,10 +1833,7 @@
         },
         {
             "id": "f39b465c-5a4c-48f6-a03d-e72e40421efd",
-            "items": [
-                "item://menu-item/buffer-identify",
-                "item://menu-item/buffer-settings"
-            ],
+            "items": ["item://menu-item/buffer-identify", "item://menu-item/buffer-settings"],
             "$type": "menu"
         },
         {
@@ -2086,9 +1973,7 @@
             "title": "language-designer-gen-geometry-toolbar-edit-symbol-menuitemtitle",
             "description": "language-designer-gen-geometry-toolbar-edit-symbol-menuitemdescription",
             "hideOnDisable": true,
-            "action": [
-                "sketching.edit-active-symbol"
-            ],
+            "action": ["sketching.edit-active-symbol"],
             "$type": "menu-item"
         },
         {
@@ -2097,14 +1982,10 @@
             "title": "language-designer-gen-precision-mode-menuitemtitle",
             "description": "language-designer-gen-precision-mode-enable-menuitemdescription",
             "hideOnDisable": true,
-            "action": [
-                "sketching.enable-precision-mode"
-            ],
+            "action": ["sketching.enable-precision-mode"],
             "alternate": {
                 "title": "language-designer-gen-precision-mode-menuitemtitle",
-                "action": [
-                    "sketching.disable-precision-mode"
-                ],
+                "action": ["sketching.disable-precision-mode"],
                 "iconId": "geolocate-center-locked",
                 "description": "language-designer-gen-precision-mode-disable-menuitemdescription"
             },
@@ -2115,14 +1996,10 @@
             "iconId": "snapping-off",
             "title": "language-designer-gen-snapping-activate-title",
             "description": "language-designer-gen-snapping-activate-description",
-            "action": [
-                "sketching.activate-snapping"
-            ],
+            "action": ["sketching.activate-snapping"],
             "alternate": {
                 "title": "language-designer-gen-snapping-deactivate-title",
-                "action": [
-                    "sketching.deactivate-snapping"
-                ],
+                "action": ["sketching.deactivate-snapping"],
                 "iconId": "snapping",
                 "description": "language-designer-gen-snapping-deactivate-description"
             },
@@ -2138,9 +2015,7 @@
             "iconId": "undo",
             "title": "language-designer-gen-geometry-toolbar-undo-menuitemtitle",
             "description": "language-designer-gen-geometry-toolbar-undo-menuitemdescription",
-            "action": [
-                "sketching.undo"
-            ],
+            "action": ["sketching.undo"],
             "$type": "menu-item"
         },
         {
@@ -2148,9 +2023,7 @@
             "iconId": "redo",
             "title": "language-designer-gen-geometry-toolbar-redo-menuitemtitle",
             "description": "language-designer-gen-geometry-toolbar-redo-menuitemdescription",
-            "action": [
-                "sketching.redo"
-            ],
+            "action": ["sketching.redo"],
             "$type": "menu-item"
         },
         {
@@ -2164,9 +2037,7 @@
             "title": "language-designer-gen-geometry-toolbar-cancel-menuitemtitle",
             "description": "language-designer-gen-geometry-toolbar-cancel-menuitemdescription",
             "hideOnDisable": true,
-            "action": [
-                "sketching.cancel"
-            ],
+            "action": ["sketching.cancel"],
             "$type": "menu-item"
         },
         {
@@ -2175,9 +2046,7 @@
             "title": "language-designer-gen-geometry-toolbar-complete-menuitemtitle",
             "description": "language-designer-gen-geometry-toolbar-complete-menuitemdescription",
             "hideOnDisable": true,
-            "action": [
-                "sketching.stop"
-            ],
+            "action": ["sketching.stop"],
             "$type": "menu-item"
         },
         {
@@ -2186,9 +2055,7 @@
             "title": "language-designer-gen-geometry-toolbar-delete-menuitemtitle",
             "description": "language-designer-gen-geometry-toolbar-delete-menuitemdescription",
             "hideOnDisable": true,
-            "action": [
-                "sketching.delete"
-            ],
+            "action": ["sketching.delete"],
             "$type": "menu-item"
         },
         {
@@ -2486,12 +2353,8 @@
         },
         {
             "id": "geocode",
-            "geocoders": [
-                "item://geocoder/esri-geocoder"
-            ],
-            "activeGeocoders": [
-                "item://geocoder/esri-geocoder"
-            ],
+            "geocoders": ["item://geocoder/esri-geocoder"],
+            "activeGeocoders": ["item://geocoder/esri-geocoder"],
             "$type": "geocode-service"
         },
         {
@@ -2557,18 +2420,8 @@
             "id": "measurement",
             "textSymbol": {
                 "type": "esriTS",
-                "color": [
-                    255,
-                    255,
-                    255,
-                    255
-                ],
-                "backgroundColor": [
-                    255,
-                    255,
-                    255,
-                    0
-                ],
+                "color": [255, 255, 255, 255],
+                "backgroundColor": [255, 255, 255, 0],
                 "font": {
                     "family": "sans-serif",
                     "size": 9,
@@ -2576,12 +2429,7 @@
                 },
                 "horizontalAlignment": "center",
                 "kerning": true,
-                "haloColor": [
-                    0,
-                    0,
-                    0,
-                    255
-                ],
+                "haloColor": [0, 0, 0, 255],
                 "haloSize": 1,
                 "rotated": false,
                 "text": "",
@@ -2598,12 +2446,7 @@
             "id": "drawing",
             "textSymbol": {
                 "type": "esriTS",
-                "color": [
-                    0,
-                    0,
-                    0,
-                    255
-                ],
+                "color": [0, 0, 0, 255],
                 "font": {
                     "family": "sans-serif",
                     "size": 9,
@@ -2611,12 +2454,7 @@
                 },
                 "horizontalAlignment": "center",
                 "kerning": true,
-                "haloColor": [
-                    255,
-                    255,
-                    255,
-                    255
-                ],
+                "haloColor": [255, 255, 255, 255],
                 "haloSize": 1,
                 "rotated": false,
                 "text": "",
@@ -2653,12 +2491,7 @@
             "id": "highlight",
             "focusLabelTextSymbol": {
                 "type": "esriTS",
-                "color": [
-                    0,
-                    0,
-                    0,
-                    255
-                ],
+                "color": [0, 0, 0, 255],
                 "font": {
                     "family": "sans-serif",
                     "size": 9,
@@ -2666,12 +2499,7 @@
                 },
                 "horizontalAlignment": "center",
                 "kerning": true,
-                "haloColor": [
-                    255,
-                    255,
-                    255,
-                    255
-                ],
+                "haloColor": [255, 255, 255, 255],
                 "haloSize": 1,
                 "rotated": false,
                 "text": "",
@@ -2684,12 +2512,7 @@
             },
             "highlightLabelTextSymbol": {
                 "type": "esriTS",
-                "color": [
-                    0,
-                    0,
-                    0,
-                    255
-                ],
+                "color": [0, 0, 0, 255],
                 "font": {
                     "family": "sans-serif",
                     "size": 9,
@@ -2697,12 +2520,7 @@
                 },
                 "horizontalAlignment": "center",
                 "kerning": true,
-                "haloColor": [
-                    255,
-                    255,
-                    255,
-                    255
-                ],
+                "haloColor": [255, 255, 255, 255],
                 "haloSize": 1,
                 "rotated": false,
                 "text": "",
@@ -2716,62 +2534,59 @@
             "$type": "highlight-settings"
         },
         {
-            "id":"project-2-config-1",
+            "id": "project-2-config-1",
             "title": "Project 2",
             "$type": "project-2",
             "description": "Project 2 Description",
-            "iconId":"layer-options"
+            "iconId": "layer-options"
         },
         {
-            "id":"project-2-stack",
+            "id": "project-2-stack",
             "iconId": "layer-options",
             "title": "Project 2 Stack",
             "description": "Project 2 Stack Description",
             "$type": "stack"
         },
         {
-            "id":"project-2-layer-list-config-1",
-            "title":"LayersList",
-            "$type":"Project-2-model-part"
+            "id": "project-2-layer-list-config-1",
+            "title": "LayersList",
+            "$type": "Project-2-model-part"
         },
         {
-            "id":"project-4-geometry-alert",
+            "id": "project-4-geometry-alert",
             "title": "Project 4 Geometry Alert",
-            "$type":"geometry-alert-model"
+            "$type": "geometry-alert-model"
         },
         {
-            "id":"project-6-basemap-opacity",
+            "id": "project-6-basemap-opacity",
             "title": "Project 6 Basemap Opacity",
-            "$type":"add-opacity"
+            "$type": "add-opacity"
         },
         {
-            "id":"project-7-config-1",
+            "id": "project-7-config-1",
             "title": "Project 7 Config",
-            "$type":"Project-7-model"
+            "$type": "Project-7-model"
         },
         {
-            "id":"project-8-config-1",
+            "id": "project-8-config-1",
             "title": "Project 8 Config",
-            "$type":"project-8-model"
-        }
-        ,
-        {
-            "id":"project-9-config-1",
-            "title": "Project 9 Config",
-            "$type":"Project-9-model"
-        }
-       
-        ,
-        {
-            "id":"project-9-test-config-1",
-            "title": "Project 9 Test Config",
-            "$type":"Project-9-model-model"
+            "$type": "project-8-model"
         },
         {
-            "id":"project-10-config-1",
+            "id": "project-9-config-1",
+            "title": "Project 9 Config",
+            "$type": "Project-9-model"
+        },
+        {
+            "id": "project-9-test-config-1",
+            "title": "Project 9 Test Config",
+            "$type": "Project-9-model-model"
+        },
+        {
+            "id": "project-10-config-1",
             "title": "Project 10 Config",
-            "$type":"Project-10-click-point-model"
+            "$type": "Project-10-click-point-model"
         }
-       
+        
     ]
 }

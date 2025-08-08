@@ -105,8 +105,8 @@ export default class LayerListProjectModel extends ComponentModelBase<ComponentM
         const featureLayers = layers.map(layer => {
             const featureLayer = convertToFeatureLayer(layer);
             this.geo = featureLayer.geometryType
-            // console.log("FTR ",featureLayer)
-            // console.log("Akhilesh" ,layer.geometryType);
+            
+            
             this.layer = featureLayer
             featureLayer.visible = true;
           

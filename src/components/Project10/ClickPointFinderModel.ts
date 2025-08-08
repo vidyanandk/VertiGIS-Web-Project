@@ -67,7 +67,6 @@ export default class ClickPointFinderModel extends ComponentModelBase<ClickPoint
             }
 
            
-            // void this.showNotification(`Point Created: X: ${geometry.x}, Y: ${geometry.y}`);
 
             // Also show alert with coordinates
             await this.messages.commands.ui.alert.execute({
