@@ -18,7 +18,7 @@ export default function ClickPointFinder(props: LayoutElementProperties<ClickPoi
     return (
         <LayoutElement {...props}>
            <Button onClick={handleButtonClick}>
-                Click Point Finder
+                Click Point FinderP10
            </Button>
         </LayoutElement>    
     );

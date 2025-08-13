@@ -43,6 +43,7 @@ xmlns:custom="custom.d4bfff9a">
           <expand config="expand-config-1" slot="bottom-end" id="expand-0db10eb0">
             <basemap-picker config="basemap-config-1" id="basemap-picker-357465cb"/>
           </expand>
+          
           <expand config="expand-config-2" slot="bottom-end" id="expand-8259a00a">
             <bookmarks config="bookmarks-config-1" id="bookmarks-4f31fd41"/>
           </expand>
@@ -56,6 +57,10 @@ xmlns:custom="custom.d4bfff9a">
           <!-- <custom:project-9 config="project-9-config-1" slot="bottom-start"/> -->
           <custom:project-9-test config="project-9-test-config-1" slot="bottom-start"/>
           <custom:Project-10 config="project-10-config-1" slot="bottom-start"/>
+
+          <expand config="expand-config-5" slot="bottom-start" id="expand-3f4b2c1e">
+            <custom:style-editor-tool-P5 config="style-editor-tool-P5-config-1" slot="bottom-start"/>
+          </expand>
 
           <web:scale-input slot="bottom-start" config="scale-input-config-1" id="scale-input-68d7eb44"/>
           <scalebar slot="bottom-start" config="scalebar-config-1" id="scalebar-9192629c"/>

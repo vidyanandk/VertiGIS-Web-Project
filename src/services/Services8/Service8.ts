@@ -1,15 +1,3 @@
-// import { operation } from "@vertigis/web/messaging";
-// import { ServiceBase } from "@vertigis/web/services";
-
-// export default class Project8Service extends ServiceBase {
-//     @operation("project-8.alertconfirmNumber")
-//     protected async AlertconfirmNumber(arg: number): Promise<void> {
-//         await this.messages.commands.ui.alert.execute({
-//             message: `Entered number: ${arg}` });
-//     }
-// }
-
-
 import { operation } from "@vertigis/web/messaging";
 import { ServiceBase } from "@vertigis/web/services";
 

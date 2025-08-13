@@ -6,6 +6,7 @@ import Project9CM from "./components/Proj9";
 import Project10 from "./components/Project10";
 import LayerListProject from "./components/Project2";
 import GeometryAlertPro4 from "./components/Project4";
+import Project5 from "./components/Project5";
 import BasemapOpacitySlidebar from "./components/Project6";  
 import InterComponentCommunication from "./components/Project7";
 import Project8 from "./components/Project8";
@@ -48,4 +49,5 @@ export default function (registry: LibraryRegistry): void {
     Project9CM(registry, LAYOUT_NAMESPACE);
     Project10Service(registry);
     Project10(registry, LAYOUT_NAMESPACE);
+    Project5(registry, LAYOUT_NAMESPACE);
 }

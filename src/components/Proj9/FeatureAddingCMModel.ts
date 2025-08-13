@@ -163,8 +163,8 @@
 
 
 
-import Point from "@arcgis/core/geometry/Point";
 import Graphic from "@arcgis/core/Graphic";
+import Point from "@arcgis/core/geometry/Point";
 import FeatureLayer from "@arcgis/core/layers/FeatureLayer";
 import type { MapExtension } from "@vertigis/arcgis-extensions/mapping/MapExtension";
 import type { ComponentModelProperties, PropertyDefs } from "@vertigis/web/models";
@@ -218,6 +218,7 @@ export default class Project9Model extends ComponentModelBase<Project9Properties
                     outFields: ["*"],
                 });
 
+                // eslint-disable-next-line no-await-in-loop
                 await this.messages.commands.map.addLayers.execute({
                     layers: featureLayer,
                     maps: this.mapExtension,
@@ -240,12 +241,14 @@ export default class Project9Model extends ComponentModelBase<Project9Properties
                 });
 
                 try {
+                    // eslint-disable-next-line no-await-in-loop
                     const result = await featureLayer.applyEdits({
                         addFeatures: [graphic],
                     });
 
                     if (result.addFeatureResults?.[0].objectId) {
                         console.log(`Feature added with ObjectID: ${result.addFeatureResults[0].objectId}`);
+                        // eslint-disable-next-line no-await-in-loop
                         await this.messages.commands.ui.alert.execute({
                             message: `Feature successfully added with Object ID: ${result.addFeatureResults[0].objectId}`,
                         });

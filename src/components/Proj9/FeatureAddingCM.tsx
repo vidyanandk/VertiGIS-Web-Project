@@ -9,7 +9,7 @@ export default function Project9(props: LayoutElementProperties<FeatureAddingCMM
     const { model } = props;
     return (
         <LayoutElement {...props}>
-            <Button onClick={() => void model.addFeatureLayer()}>Add Location Layer</Button>
+            <Button onClick={() => void model.addFeatureLayer()}>Add Location LayerP9</Button>
         </LayoutElement>
     );
 }

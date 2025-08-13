@@ -2586,6 +2586,16 @@
             "id": "project-10-config-1",
             "title": "Project 10 Config",
             "$type": "Project-10-click-point-model"
+        },
+        {
+            "id":"style-editor-tool-P5-config-1",
+            "title": "Style Editor Tool P5",
+            "$type": "style-editor-tool-model"
+        },
+        {
+            "id":"expand-config-5",
+            "title": "Expand Config 5",
+            "$type": "expand"
         }
         
     ]
